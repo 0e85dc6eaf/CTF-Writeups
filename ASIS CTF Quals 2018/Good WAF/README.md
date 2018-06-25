@@ -6,7 +6,7 @@
 
 > Hint : base64(jsonobject)
 
-> [https://ctftime.org/writeup/9888]
+> https://ctftime.org/writeup/9888
 
 When we visit the website, we can see that we need to provide `object` parameter which is base64 encoded JSON object.
 Just for my convenience I decided to use JSON beautifier, but it quickly appeared that it also bypasses the WAF protection.

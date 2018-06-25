@@ -2,7 +2,7 @@
 
 > Beautify php code! Here
 
-> [https://ctftime.org/writeup/9910]
+> https://ctftime.org/writeup/9910
 
 When we visit the website and follow the `Get started` link we can see the following message
 ```
