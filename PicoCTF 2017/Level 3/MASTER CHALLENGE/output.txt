@@ -1,0 +1,523 @@
+CONNECTED
+Welcome to the WAR card game simulator. Work in progress...
+
+Cards don't exchange hands after each round, but you should be able to win without that,right?
+Please enter your name: 
+
+Welcome 
+
+You have 100 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 12 of suit 3.
+You have a 4 of suit 3.
+You lost! :(
+
+You have 99 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 10 of suit 3.
+You have a 8 of suit 0.
+You lost! :(
+
+You have 98 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 14 of suit 1.
+You have a 3 of suit 3.
+You lost! :(
+
+You have 97 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 11 of suit 1.
+You have a 7 of suit 0.
+You lost! :(
+
+You have 96 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 12 of suit 1.
+You have a 6 of suit 3.
+You lost! :(
+
+You have 95 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 9 of suit 2.
+You have a 6 of suit 1.
+You lost! :(
+
+You have 94 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 10 of suit 2.
+You have a 8 of suit 1.
+You lost! :(
+
+You have 93 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 9 of suit 1.
+You have a 4 of suit 1.
+You lost! :(
+
+You have 92 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 13 of suit 0.
+You have a 4 of suit 2.
+You lost! :(
+
+You have 91 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 14 of suit 3.
+You have a 3 of suit 1.
+You lost! :(
+
+You have 90 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 13 of suit 1.
+You have a 2 of suit 0.
+You lost! :(
+
+You have 89 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 14 of suit 2.
+You have a 2 of suit 1.
+You lost! :(
+
+You have 88 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 13 of suit 3.
+You have a 6 of suit 2.
+You lost! :(
+
+You have 87 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 9 of suit 3.
+You have a 6 of suit 0.
+You lost! :(
+
+You have 86 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 10 of suit 1.
+You have a 3 of suit 0.
+You lost! :(
+
+You have 85 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 11 of suit 0.
+You have a 5 of suit 3.
+You lost! :(
+
+You have 84 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 8 of suit 3.
+You have a 7 of suit 2.
+You lost! :(
+
+You have 83 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 14 of suit 0.
+You have a 7 of suit 3.
+You lost! :(
+
+You have 82 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 11 of suit 2.
+You have a 5 of suit 0.
+You lost! :(
+
+You have 81 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 12 of suit 2.
+You have a 4 of suit 0.
+You lost! :(
+
+You have 80 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 8 of suit 2.
+You have a 2 of suit 2.
+You lost! :(
+
+You have 79 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 9 of suit 0.
+You have a 3 of suit 2.
+You lost! :(
+
+You have 78 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 13 of suit 2.
+You have a 7 of suit 1.
+You lost! :(
+
+You have 77 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 12 of suit 0.
+You have a 5 of suit 2.
+You lost! :(
+
+You have 76 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 11 of suit 3.
+You have a 5 of suit 1.
+You lost! :(
+
+You have 75 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 10 of suit 0.
+You have a 2 of suit 3.
+You lost! :(
+
+You have 74 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 73 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 72 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 71 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 70 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 69 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 68 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 67 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 66 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 65 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 64 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 63 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 62 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 61 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 60 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 59 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 58 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 57 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 56 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 55 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 54 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 53 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 52 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 51 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 50 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 49 coins.
+How much would you like to bet?
+
+you bet 1.
+
+The opponent has a 0 of suit 0.
+You have a 0 of suit 0.
+You lost! :(
+
+You have 48 coins.
+How much would you like to bet?
+
+you bet 48.
+
+The opponent has a 0 of suit 0.
+You have a 4 of suit 4.
+You won? Hmmm something must be wrong...
+You actually won! Nice job
+
+You have 96 coins.
+How much would you like to bet?
+
+you bet 96.
+
+The opponent has a 0 of suit 0.
+You have a 4 of suit 4.
+You won? Hmmm something must be wrong...
+You actually won! Nice job
+
+You have 192 coins.
+How much would you like to bet?
+
+you bet 192.
+
+The opponent has a 0 of suit 0.
+You have a 4 of suit 4.
+You won? Hmmm something must be wrong...
+You actually won! Nice job
+
+You have 384 coins.
+How much would you like to bet?
+
+you bet 384.
+
+The opponent has a 0 of suit 0.
+You have a 4 of suit 4.
+You won? Hmmm something must be wrong...
+You actually won! Nice job
+You won the game! That's real impressive, seeing as the deck was rigged...
+/bin/sh: 0: can't access tty; job control turned off
+$ 
+> $ 
+5f28113500ed744dea5b22743db9b9b6
+
+$ 
+DISCONNECTED
