@@ -85,10 +85,8 @@ Authenticated
 [*] Switching to interactive mode
 
 > Unknown command ''
-> $ quit
-Unknown command 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAA'
-> $ quit
-Bye!
+> Unknown command 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAA'
+> Bye!
 $ ls -la
 total 144
 drwxr-xr-x 3 user   user      4096 Jun 18 08:25 .
