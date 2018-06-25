@@ -17,7 +17,7 @@ struct node{
 }
 ```
 The function returns address of the first character's struct and all other characters are always compared with this one, so this is our root.
-We got also some mysterious (string.txt) file. Without further analysis of the binary we can guess that it tells us which nodes of the binary tree to chose.
+We got also some mysterious [string](string.txt) file. Without further analysis of the binary we can guess that it tells us which nodes of the binary tree to chose.
 L means go left, R - go right and D means that this is nth character. We can write python script that will build the binary tree and reconstruct the password.
 [Final script](solve.py)
 ```
