@@ -14,7 +14,8 @@ To compile the program use
 ```
 g++ solve.cc -o solve -O2
 ```
-(I used int64_t in main, because if the program failed to find the right value it would be an infinite loop - uint32_t is always less than 2**32)
+(I used int64_t in main, because if the program failed to find the right value it would be an infinite loop - uint32_t is always less than 2^32)
+
 It takes just a few seconds to get the find the correct input.
 ```
 $ ./solve
