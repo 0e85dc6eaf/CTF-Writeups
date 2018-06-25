@@ -10,7 +10,7 @@ Hints:
 
 When we look at the page source, we can see that validating password is done client-side which is always a bad idea.
 
-```
+```js
 function validate(pword){
 	//TODO: Implement me
 	return false;
@@ -26,7 +26,7 @@ function make_ajax_req(input){
 
 The make_ajax_req function takes one parameter (a boolean) which determines if the password is correct or not, so let's open javascript console in the browser and type
 
-```
+```js
 make_ajax_req(true);
 ```
 
