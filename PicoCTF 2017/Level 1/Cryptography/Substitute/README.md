@@ -9,7 +9,7 @@ Hints:
 There are many tools that can solve this problem for you, but we can also do this manually.
 First, let's create simple PHP script which will replace characters and convert unknown characters to lowercase.
 
-```
+```php
 <?php
 $text = file_get_contents('encrypted.txt');
 $key = [];
@@ -33,7 +33,7 @@ We can find something like `AL AF` in our ciphertext and it allows us to assume 
 
 With this knowledge we can fill the $key array with some letters.
 
-```
+```php
 $key = [
 'A' => 'A',
 'F' => 'N',
@@ -47,7 +47,7 @@ Running the script makes our text a bit more clear ;). We can continue our analy
 
 `Ngxtdztk 21, 1985` this part would probably stand for a date. We only know the `N` letter, but we have only one month starting with `N`. So let's update our array.
 
-```
+```php
 'G' => 'O',
 'X' => 'V',
 'T' => 'E',
@@ -59,7 +59,7 @@ Running the script makes our text a bit more clear ;). We can continue our analy
 Now we know a big part of the text and we can try to complete the words we are already able to recognize.
 `TiE` stands for `THE`, `uENERATEr` for `GENERATED`, `Bb` for `BY`, `Oy` for `OF`, `cERE` for `WERE` (as `H` is already in use), `BOOqS` for `BOOKS`,
 
-```
+```php
 'I' => 'H',
 'U' => 'G',
 'R' => 'D',
