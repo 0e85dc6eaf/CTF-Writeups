@@ -26,7 +26,8 @@ To compile the library we can use:
 gcc obj.c -o obj -shared -fPIC
 ```
 (it didn't work for me without -fPIC)
-To avoid problems we can base64 encoded our binary. Then we have to paste it on server, decode and pass its path as LD_PRELOAD value in filterenv.
+
+To avoid problems we can base64 encode our binary. Then we have to paste it on server, decode and pass its path as LD_PRELOAD value in filterenv.
 
 [Final exploit](exploit.py)
 
