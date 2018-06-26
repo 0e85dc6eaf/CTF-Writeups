@@ -1,7 +1,7 @@
 # JS safe
 
-When we look at the open_safe() function we can that it requires our input to be in form `CTF{[0-9a-zA-Z_@!?-]+}` and only the middle part is checked.
-If the flag is valid it will be used to decrypt secret. We can't just skip password verification, because it is used as encryption key and we'll got wrong result.
+When we look at the open_safe() function we can see that it requires our input to be in form `CTF{[0-9a-zA-Z_@!?-]+}` and only the middle part is checked.
+We can't just skip password verification, because it is used as encryption key and we'll got wrong result.
 Now, let's proceed to x() function which checks if our input is valid.
 I copied this function to scratchpad in Firefox, so I can easily modify it and immediately see the results.
 First, let's add the following code
@@ -16,9 +16,9 @@ if(/g/.test(code.substr(i,4)))
 }
 ```
 `env[g]` contains our input, so probably nothing very important happens before it is used.
-One important thing we have to notice is that this code can not only do some calculations on numbers, but it also can create strings and functions.
+W we have to notice is that this code can not only do some calculations on numbers, but it also can create strings and functions.
 The other thing is that if object property doesn't exist and we try to write something to it, JS will just add the property.
-As a consequence `env` object grows all the time.
+
 When we dump `env` object (i==876) we can see something interesting.
 There is SubtleCrypto in one property and we have also digest function and `sha-256` parameter. Let's see what happens next.
 ```js
@@ -40,8 +40,8 @@ if(i==980)
 	break;
 }
 ```
-For i=940 they move hash of our input to `env[Ѿ]` and for i=960 they move first byte of it to `env[ѿ]`. Then they xor the result with 230 and `or` it to env[h] which is used to check if the password was correct.
-xor a,b gives 0 only if a=b, so we know that first byte of our hash must equal 230 (env[h] must be zero).
+For i=940 they move hash of our input to `env[Ѿ]` and for i=960 they move first byte of it to `env[ѿ]`. Then they xor the result with 230 and `or` it to `env[h]` which is used to check if the password was correct. (`env[h]` must be zero, so all xors need to be zero too)
+`xor a,b` gives 0 only if `a=b`, so we know that first byte of our hash must equal 230.
 Replace our disassembler with
 ```js
 var hash =[];
@@ -52,7 +52,7 @@ if(fn=='ѡ')
 	hash.push(env[arg1][1]);
 }
 ```
-Now we known the required hash of our password ` 230,104,96,84,111,24,205,187,205,134,179,94,24,181,37,191,252,103,247,114,198,80,206,223,227,255,122,0,38,250,29,238` -> `e66860546f18cdbbcd86b35e18b525bffc67f772c650cedfe3ff7a0026fa1dee`
-As they said we need to google for this hash and we get the password `Passw0rd!`
+Now we know the required hash of our password ` 230,104,96,84,111,24,205,187,205,134,179,94,24,181,37,191,252,103,247,114,198,80,206,223,227,255,122,0,38,250,29,238` -> `e66860546f18cdbbcd86b35e18b525bffc67f772c650cedfe3ff7a0026fa1dee`
+As they mentioned in the comment we can google for this hash and we get the password `Passw0rd!`
 
 Flag: `CTF{Passw0rd!}`
