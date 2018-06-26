@@ -24,8 +24,10 @@ The first one is `__libc_start_main`, so we can overwrite it.
 To compile the library we can use:
 ```
 gcc obj.c -o obj -shared -fPIC
-``` (it didn't work for me without -fPIC)
+```
+(it didn't work for me without -fPIC)
 To avoid problems we can base64 encoded our binary. Then we have to paste it on server, decode and pass its path as LD_PRELOAD value in filterenv.
+
 [Final exploit](exploit.py)
 
 Flag: `CTF{H3ll0-Kingc0p3}`
