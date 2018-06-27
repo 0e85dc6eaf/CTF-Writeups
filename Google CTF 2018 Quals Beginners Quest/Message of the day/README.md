@@ -5,7 +5,7 @@ We got only binary this time and `file` says it's not stripped elf64, so it cont
 $ file motd
 motd: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=48025612558d041aa5521523e5e98194320d1fa4, not stripped
 ```
-When open the file in gdb and run `checksec` (it's not built-in, but when I use gdb peda)
+When open the file in gdb and run `checksec` (it's not built-in, but I use gdb peda)
 ```
 gdb-peda$ checksec
 CANARY    : disabled
