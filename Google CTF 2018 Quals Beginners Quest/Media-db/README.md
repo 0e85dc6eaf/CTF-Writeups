@@ -1,5 +1,7 @@
 # Media-db
 
+> https://ctftime.org/writeup/10327
+
 At first, the application seems safe. It correctly removes quotes from the insert parameters and apostrophes from both select queries.
 I also found out that SQLite 3 doesn't support backslash escaping, so we can't solve it this way. However the application allows us to shuffle artist.
 It chooses random artist from database and then selects all his songs. And that's what we need. We can without any problems insert artist with apostrophes in his name to database.

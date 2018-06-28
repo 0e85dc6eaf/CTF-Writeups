@@ -1,5 +1,7 @@
 # Filter env
 
+> https://ctftime.org/writeup/10309
+
 This time we get C source code and server address. Main function seems safe, so I started from set_new_env().
 It reads our input, clears all environment variables, saves our variables and then attempts to sanitize them.
 Unfortunately readenv() function does not seem to contain any bug. I hoped this will be another buffer overflow challenge, but 

@@ -1,5 +1,7 @@
 # Gatekeeper
 
+> https://ctftime.org/writeup/10329
+
 This time we got an application. If we run `strings` on it we can see 
 ```
 Usage: %s <username> <password>

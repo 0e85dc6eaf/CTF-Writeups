@@ -1,5 +1,7 @@
 # Router UI
 
+> https://ctftime.org/writeup/10310
+
 It was really easy to find out that we can inject XSS payload in username and password, however it was much harder to bypass XSS Auditor.
 I tried a lot of payloads (either my own or copied from the Internet), but it didn't work.
 There was only one strange thing about this website. Our username and password were separated by two slashes.

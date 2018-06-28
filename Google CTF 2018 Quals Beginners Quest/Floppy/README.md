@@ -1,11 +1,15 @@
 # Floppy
 
+> https://ctftime.org/writeup/10295
+
 This time we get only some .ico file, but when we open it in notepad++ we can see that it contains some filenames, so maybe it's an archive?
 We can extract its content with 7-zip. First file is `drivers.txt` and it contains our flag.
 
 Flag: `CTF{qeY80sU6Ktko8BJW}`
 
 # Floppy 2
+
+> https://ctftime.org/writeup/10296
 
 Now we have to do something with www.com file. I downloaded DOSbox, but it only displays text `The Foobanizer9000 is no longer on the OffHub DMZ.`.
 I couldn't find any way to decompile it, so I decided to debug it. I found compiled debugger for dosbox at https://www.vogons.org/viewtopic.php?t=3944

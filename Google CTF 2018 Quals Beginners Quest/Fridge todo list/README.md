@@ -1,5 +1,7 @@
 # Fridge todo list
 
+> https://ctftime.org/writeup/10332
+
 This time we got both binary and the source code. Unfortunately PIE is enabled, so we don't know where our binary will be in the memory.
 
 First interesting function is authenticate(). In fact it doesn't perform any authentication, it just sets the username.

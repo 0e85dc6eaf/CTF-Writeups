@@ -1,5 +1,7 @@
 # JS safe
 
+> https://ctftime.org/writeup/10298
+
 When we look at the open_safe() function we can see that it requires our input to be in form `CTF{[0-9a-zA-Z_@!?-]+}` and only the middle part is checked.
 We can't just skip password verification, because it is used as encryption key and we'll got wrong result.
 Now, let's proceed to x() function which checks if our input is valid.

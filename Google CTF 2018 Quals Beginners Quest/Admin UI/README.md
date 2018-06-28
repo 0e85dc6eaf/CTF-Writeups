@@ -1,5 +1,7 @@
 # Admin UI
 
+> https://ctftime.org/writeup/10289
+
 When we examine patchnotes we can find out that although path traversal vulnerability was patched in v0.2 it was rolled back in v0.3.
 Let's try it
 ```
@@ -48,6 +50,8 @@ Flag: `CTF{I_luv_buggy_sOFtware}`
 
 # Admin UI 2
 
+> https://ctftime.org/writeup/10288
+
 When we enter the flag from previous level as the password we can see that it's not the end and we have to enter secondary password.
 When we analyze it in IDA, we can notice that it only checks if the password has 35 characters (maybe it wasn't intended by creators of this challenge).
 Anyway we can the second flag offline. There is `_ZL4FLAG` offset in IDA and it's `const unsigned __int8 FLAG[35]`.
@@ -57,6 +61,8 @@ This [script](2nd.py) does it for us.
 Flag: `CTF{Two_PasSworDz_Better_th4n_1_k?}`
 
 # Admin UI 3
+
+> https://ctftime.org/writeup/10287
 
 The last part of the series and the most interesting one. We finally get to command execution. Unfortunately there is variable `_ZL13shell_enabled` and it's set to false.
 But we can execute some built-in commands. `debug` command prints us a lot of interesing informations about the memory. The most important is `_ZL13cmds_executed` variable and its address. `shell_enabled` is just after it in the memory!
