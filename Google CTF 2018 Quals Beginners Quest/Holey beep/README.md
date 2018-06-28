@@ -48,4 +48,6 @@ Unfortunately it still didn't work... after many attempts it appeared that I had
 kill -15 `pidof /home/user/holey_beep`
 ```
 
+[exploit](exploit.py)
+
 Flag: `CTF{the_cake_wasnt_a_lie}`
