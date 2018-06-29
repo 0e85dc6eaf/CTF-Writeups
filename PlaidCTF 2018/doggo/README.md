@@ -1,6 +1,7 @@
 # Doggo
 
 *You have to solve pupper before this challenge*
+
 This time the interpreter is patched and it won't allow if branches to be public if private value was used in comparison.
 To solve previous challenge we didn't have to use coercion, references and functions, so probably they will be needed now.
 When we play with the language for a while we can notice that we are only allowed to assign values to references.
