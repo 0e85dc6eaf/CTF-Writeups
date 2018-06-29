@@ -1,4 +1,4 @@
-# ASIS CTF Quals 2018 Writeup
+# ASIS CTF Quals 2018
 
 ## Table of contents
 
