@@ -35,6 +35,7 @@ We have to redirect output to file and then remove additional data added by this
 printf "2\n../main\n3\n" | nc mngmnt-iface.ctfcompetition.com 1337 > output.bin
 ```
 (open output.bin in any notepad or hexeditor and remove everything before \x7fELF and after the last series of null bytes at the end)
+
 This way we got the copy of the binary running on the server.
 When we open it in IDA we can see that the application reads the password from file `flag`. Let's cat it.
 ```
