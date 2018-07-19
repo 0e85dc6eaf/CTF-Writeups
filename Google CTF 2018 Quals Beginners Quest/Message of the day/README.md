@@ -1,5 +1,7 @@
 # Message of the day
 
+> https://ctftime.org/writeup/10477
+
 We got only binary this time and `file` says it's not stripped elf64, so it contains all the symbols.
 ```
 $ file motd
