@@ -22,7 +22,7 @@ https://doc.sagemath.org/html/en/reference/groups/sage/groups/generic.html
 
 `discrete_log_rho` doesn't allow us to specify bounds, so it could be too slow (I didn't test it).
 
-`bsgs` and `discrete_log_lambda` both allow us to pass bounds and they work. [bsgs](bsgs.sage) [discrete_log_lambda](discrete_log_lambda.sage)
+`bsgs` and `discrete_log_lambda` both allow us to pass bounds and they work. [bsgs.sage](bsgs.sage) [discrete_log_lambda.sage](discrete_log_lambda.sage)
 
 In my case `a=33657892424673`.
 
