@@ -8,7 +8,7 @@ Pn = E((611244997204109641642899050068306795471915386097784460605146459058295072
 order = E.order()
 subresults = []
 factors = []
-module = 1
+modulus = 1
 for prime, exponent in factor(order):
 	if prime > 10**9:	
 		break
@@ -17,10 +17,10 @@ for prime, exponent in factor(order):
 	P2 = P*(order//_factor)
 	Pn2 = Pn*(order//_factor)
 	subresults.append(discrete_log_lambda(Pn2, P2, (0,_factor), '+'))
-	module *= _factor
+	modulus *= _factor
 n = crt(subresults,factors)
 while n<upper_boundary:
 	if P*n==Pn:
 		print("Win! n=%d"%n)
 		break
-	n+=module
+	n+=modulus
