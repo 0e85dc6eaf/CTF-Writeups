@@ -13,7 +13,7 @@ picoCTF{grep_and_you_will_find_cdf2e7c2}
 
 Flag is `picoCTF{grep_and_you_will_find_cdf2e7c2}`.
 
-======
+---
 
 # grep 2
 

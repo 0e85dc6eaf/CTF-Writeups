@@ -14,7 +14,7 @@ $ python
 
 Flag is `picoCTF{A}`.
 
-======
+---
 
 # General Warmup 2
 
@@ -32,7 +32,7 @@ $ python
 
 Flag is `picoCTF{11011}`.
 
-======
+---
 
 # General Warmup 3
 
