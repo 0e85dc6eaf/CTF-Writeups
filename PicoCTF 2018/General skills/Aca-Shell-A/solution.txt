@@ -1,0 +1,11 @@
+cd secret
+ls
+rm intel*
+cd ..
+cd executables
+./dontLookHere
+cd ..
+whoami
+cp /tmp/TopSecret passwords/
+cd passwords
+cat TopSecret

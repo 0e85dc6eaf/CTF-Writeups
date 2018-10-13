@@ -1,0 +1,37 @@
+Since this is a new type of problem, here are a bunch of notes, as there are
+probably ways this can go wrong that are frustrating, yet not productive for
+learning.
+
+The goal here is to make an adversarial examples, using the photo of Trixi
+(the lovely dog in the photo) as a starting point. The website will classify
+it using the Keras pre-trained MobileNet network, for which you can download
+a copy. The image needs to do the following:
+
+    - Classify as a Tree Frog, at 95% confidence
+    - Be similar to the original image (max 2 bit difference using p hash)
+
+This vulnerability is not specifically for MobileNet, and works against
+others as well. MobileNet was chosen as it uses less memory.
+
+Adversarial examples are not limited to being close to a base image, but
+this made the most sense for a CTF problem, as a proxy for true
+classification of the image.
+
+I want to make it clear that this isn't a stego, web, or "find a photo of 
+the author's dog wearing a frog hat" problem. The intended solution is a 
+photo that is clearly Trixi, but trick MobileNet into thinking there's
+a tree frog in it, rather than a dog. A sample attack image is provided
+in the source code, that's recognized as a sealion. It looks squished due
+to the preprocessing of the network. It looks nearly identical to the 
+preprocessed image without any attack present.
+
+The linked Google article is about their challenge on trying to build 
+defenses against this class of attack, and shows where academia is at
+in terms of both attacks and defenses.
+
+The solution runs in < 10s on my CPU. 
+I can get 99+% confidence, and 0 bit difference.
+
+Good luck!
+
+-bp
