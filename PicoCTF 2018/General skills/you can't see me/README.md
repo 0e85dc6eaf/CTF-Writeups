@@ -8,7 +8,7 @@ Hints:
 
 > What's in the manual page of ls?
 
-This challenge was pretty fun. If we `ls` the directory we can two entries named `.`.
+This challenge was pretty fun. If we `ls` the directory we can see a file named `.`.
 
 ```
 $ cd /problems/you-can-t-see-me_4_8bd1412e56df49a3c3757ebeb7ead77f
