@@ -22,6 +22,7 @@ long get_rand() {
   srand(seed);
   return seed;
 }
+/* ... some code ... */
 cash = get_rand();
 ```
 
