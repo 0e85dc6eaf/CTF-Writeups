@@ -9,6 +9,7 @@ We can check the protocol details in [some manual](https://www.dobus.ru/pdf/prog
 [Final script](printer.py)
 
 Result: 
+
 ![result image](result.png)
 
 Flag is `flag{my_tsc_hc3pnikdk}`
