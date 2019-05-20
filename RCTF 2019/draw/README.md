@@ -7,7 +7,8 @@ cs pu lt 90 fd 500 rt 90 pd fd 100 rt 90 repeat 18[fd 5 rt 10] lt 135 fd 50 lt 1
 
 If you google a few first instructions you can see it's logo language. Just paste this code into [the interpreter](https://www.calormen.com/jslogo/) and you should get the flag.
 
-Result: 
+Result:
+
 ![result image](result.png "RCTF_HeyLogo")
 
 Flag is `RCTF_HeyLogo`
