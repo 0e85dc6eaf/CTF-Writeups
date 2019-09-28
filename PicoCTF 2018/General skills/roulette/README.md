@@ -55,8 +55,7 @@ long get_long() {
 }
 ```
 
-Note that this function checks if number is greater than `LONG_MAX` *after* only if next character is also a digit. It means that if we enter the number of the same length as `LONG_MAX` (in decimal) it is never checked!
-This way we can input negative values.
+Note that this function increases `l` variable *after* checking if it is greater than `LONG_MAX`. It means that if we exceed `LONG_MAX` in last iteration, function will never check if it is valid. It allows us to overflow `l` and do negative bets.
 
 Bet is immediately subtracted from our balance, so we can earn as much money as we want this way.
 ```
@@ -64,7 +63,7 @@ bet = get_bet();
 cash -= bet;
 ```
 
-Just bet `2147583648` and you are a billionaire. But you must lose this round, because otherwise they will add this negative bet to your balance and in result you'll be poor again.
+Just bet `2147583648` and you will become a billionaire. Keep in mind that you must lose this round, because otherwise you'll win negative amount of money and lose everything you earned.
 ```
 cash += 2*bet;
 ```
