@@ -121,7 +121,8 @@ Flag is `0x7771`.
 
 [binary](run4.e)
 
-Compile with: ```
+Compile with:
+```
 nasm comp.nasm -felf32
 gcc -m32 comp.o -o run4.e
 ```
