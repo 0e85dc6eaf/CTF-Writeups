@@ -1,0 +1,17 @@
+int main(int argc, char **argv)
+{
+	char* password=argv[1];//part_b
+	int length = strlen(password);//part_a strlen
+	int iterator = 0;//part_b
+	while(iterator<length-3)//part_d
+	{//part_c
+		password[iterator]^=0x66;
+		rotate_right16(password[iterator],15);
+		rotate_left32(password[iterator],10);
+		iterator++;
+	}
+	char *some_value = 0x59b617b;//part_d
+	int result = strcmp(some_value,password);//part_e,part_k strcmp
+	//part_f calls strcmp, checks if strings have the same length
+	return result;//1-success
+}
