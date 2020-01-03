@@ -2,7 +2,8 @@
 
 Use [this website](https://codewithrockstar.com/online) to execute [lyrics.txt](lyrics.txt)
 
-Output: ```
+Output:
+```
 114
 114
 114
