@@ -8,11 +8,11 @@ The only interesting part of `main` function is `_listdir` call.
 _listdir(0, (int32_t)g17);
 ```
 
-We can see that depending on the first argument `_lisdir` function either calls `_decodeBytes` (a1==1) or `_hideInFile` (a1==0).
+We can see that depending on the first argument `_listdir` function either calls `_decodeBytes` (a1==1) or `_hideInFile` (a1==0).
 
-If we search for all `_lisdir` calls, we can see that `_decode` function does exactly what we want (decodes the flag and prints it).
+If we search for all `_listdir` references, we can see that `_decode` function does exactly what we want (decodes the flag and prints it).
 
-We can patch the application to call `_decode` function.
+We can patch the application to call `_decode` function for us.
 
 [patched binary](main.exe)
 
